@@ -14,13 +14,12 @@ GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
 
 PLANET_MASS = 100
-SHIP_MASS = 5
+ROCK_MASS = 5
 G = 6.674
 PLANET_SIZE = 50
-OBJECT_SIZE = 5
+ROCK_SIZE = 5
 VEL_SCALE = 100
 
+# images
 BACKGROUND = pygame.transform.scale(pygame.image.load('images/background.png'), (WIDTH, HEIGHT))
-SATURN = pygame.transform.scale(pygame.image.load('images/jupiter.png'), (PLANET_SIZE*2, PLANET_SIZE*2))
-
-
+SATURN = pygame.transform.scale(pygame.image.load('images/jupiter.jpg'), (PLANET_SIZE*2, PLANET_SIZE*2))
