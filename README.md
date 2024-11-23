@@ -1,1 +1,1 @@
-# GarvitySimulation
+# GarvitySlingshot
